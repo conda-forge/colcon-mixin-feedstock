@@ -1,5 +1,5 @@
 {% set name = "colcon-mixin" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/colcon-mixin-{{ version }}.tar.gz
-  sha256: 44679b597a681551b4ab6eb0b36e8002f03696a208c10dffe2b5ca84703d3dd7
+  sha256: b65379f5685343cfbd84ce7ae583966523b7b64d786a108dd5843c93092997ae
 
 build:
   number: 0
