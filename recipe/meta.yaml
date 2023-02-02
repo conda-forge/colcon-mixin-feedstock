@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - colcon-core >=0.5.6
+    - colcon-core >=0.12
     - python >=3.6
     - pyyaml
 
