@@ -1,5 +1,5 @@
 {% set name = "colcon-mixin" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2c7d0091d0832f9ec80b005da31bd5030ce358c064ee5fe59c173888341ff3f6
+  sha256: e9304732d6cfa27cebb41ae03e3a241eca25d25caa6858275edc1ed838e49997
 
 build:
   number: 0
